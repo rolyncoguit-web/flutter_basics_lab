@@ -49,7 +49,7 @@ class WeatherPage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Cabadbarab City',
+                          'Cabadbaran City',
                           style: TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,

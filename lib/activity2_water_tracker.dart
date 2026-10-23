@@ -28,14 +28,10 @@ class WaterTrackerPage extends StatefulWidget {
 
 class _WaterTrackerPageState extends State<WaterTrackerPage> {
   int _glasses = 0;
-  static const int _goal = 8;
+  static const int _goal = 6;
 
   void _addGlass() {
-    setState(() {
-      if (_glasses < _goal) {
-        _glasses++;
-      }
-    });
+    if (_glasses < _goal) _glasses++;
   }
 
   void _removeGlass() {
